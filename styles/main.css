@@ -74,6 +74,11 @@ body {
   margin-bottom: 10px;
 }
 
+#EklowHead {
+  max-width: 11vw;
+  max-height: 11vh;
+}
+
 .nav-masthead {
   text-align: center;
   display: block;
@@ -111,7 +116,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 10px;
   font-size: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+
+#centerimg {
+  max-width: 60vw;
+  max-height: 20vh;
 }
 
 @media (min-width: 768px) {
