@@ -64,6 +64,7 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
+  transform: translateY(-25px);
 }
 
 /*
@@ -72,11 +73,6 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-#EklowHead {
-  max-width: 11vw;
-  max-height: 11vh;
 }
 
 .nav-masthead {
@@ -122,6 +118,7 @@ body {
 #centerimg {
   max-width: 60vw;
   max-height: 20vh;
+  transform: translateX(-12px);
 }
 
 @media (min-width: 768px) {
