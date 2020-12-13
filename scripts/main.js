@@ -3,7 +3,10 @@ $(document).ready(function(){
         let email = document.getElementById('recipient-email').value;
         const settings = {
             body: JSON.stringify({email}),
-            headers: new Headers({"content-type": "application/json"}),
+            headers: new Headers({
+                "content-type": "application/json",
+
+            }),
             method: "POST"
         }
         fetch(`https://waitinglistserv.herokuapp.com/registerEmail`, settings)
@@ -14,5 +17,6 @@ $(document).ready(function(){
         $("subcribeModal").attr("aria-hidden","true");
         $("#top").removeClass("modal-open");
         $(".modal-backdrop").remove();
+        document.getElementById('recipient-email').value = "";
     })
 });
